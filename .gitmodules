@@ -7,3 +7,7 @@
 [submodule "loisrantsblog/themes/hugo-coder"]
 	path = loisrantsblog/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "loisrantsblog/public"]
+	path = loisrantsblog/public
+	url = https://github.com/loiSvelasco/loisvelasco.github.io.git
+	branch = main
