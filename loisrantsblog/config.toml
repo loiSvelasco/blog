@@ -10,7 +10,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics: G-91HRLLXQM8
+googleAnalytics = 'G-91HRLLXQM8'
 
 [params]
   author = "Louis Velasco"
