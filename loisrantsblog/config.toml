@@ -64,6 +64,10 @@ googleAnalytics = 'G-91HRLLXQM8'
   weight = 2
   url = "portfolio/"
 [[menu.main]]
-  name = "About"
+  name = "Tags"
   weight = 3
+  url = "tags/"
+[[menu.main]]
+  name = "About"
+  weight = 4
   url = "about/"
