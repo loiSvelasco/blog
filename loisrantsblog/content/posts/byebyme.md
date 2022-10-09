@@ -26,7 +26,7 @@ The lyrics start with the word *Monday*, indicating the start of the speaker's d
 
 The first two themes make perfect sense; an elderly man speaking dearly to his significant other; a father speaking to his daughter, asking how her day was; what is happening; how is she doing; what is new; what stories can she tell; anything, just to have a conversation or to be in the loop with his loved ones. It is plausible, until you ponder the title.
 
-#### **Bye by me**
+### Bye by me
 
 The last 2 themes may seem dark, sad, or dramatic. But our opinions may vary.
 Let us (or me) talk about the third theme, which is a man who suffers from amnesia. 

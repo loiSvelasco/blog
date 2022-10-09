@@ -1,0 +1,48 @@
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+logo = "loisrantslogo.png"
+
+[article]
+  showDate = true
+  showViews = true
+  showLikes = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true 
+  showWordCount = false
+  showSummary = true
+  # sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
+  sharingLinks = false
+
+[list]
+  showBreadcrumbs = true
+  showSummary = false
+  showTableOfContents = true
+  showCards = false
+  groupByYear = true
+
+[footer]
+  showThemeAttribution = false
+
+[firebase]
+  apiKey = "AIzaSyDFhimbGLKf6RtFaYriKevyIaNnOKmv51g"
+  authDomain = "loisrantsblog.firebaseapp.com"
+  projectId = "loisrantsblog"
+  storageBucket = "loisrantsblog.appspot.com"
+  messagingSenderId = "5747733272"
+  appId = "1:5747733272:web:6a69a2f78b0114f7d1246d"
+  measurementId = "G-6F97DMF26H"

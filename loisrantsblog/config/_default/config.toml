@@ -1,0 +1,24 @@
+baseURL = 'https://loisvelasco.is-a.dev/'
+languageCode = 'en-us'
+title = "Loi's Rants（˶′◡‵˶）"
+
+googleAnalytics = "G-91HRLLXQM8"
+
+[author]
+name = "Louis Velasco"
+image = "img/avatar.jpg"
+headline = "A generally awesome human"
+bio = "I like anime"
+links = [
+    { github = "http://github.com/loisvelasco" },
+    { facebook = "https://www.facebook.com/louis.superficial.velasco.1/" },
+    { instagram = "https://www.instagram.com/loiiivelascooo/" },
+    { twitter = "https://twitter.com/itsFafaLoi" },
+]
+
+[permalinks]
+  posts = '/:year/:month/:title/'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+

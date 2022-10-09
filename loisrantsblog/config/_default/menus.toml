@@ -1,0 +1,30 @@
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = -10
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Portfolio"
+  pageRef = "portfolio"
+  weight = 20
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "Assets"
+  pageRef = "attributions"
+  weight = 20

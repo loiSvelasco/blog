@@ -1,7 +1,6 @@
 ---
 title: "Portfolio"
-date: 2022-10-03T18:00:23+08:00
-draft: false
+layout: "simple"
 ---
 
-### Here are some of my works
+## Here are some of my works
