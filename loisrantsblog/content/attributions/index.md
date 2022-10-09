@@ -7,4 +7,4 @@ layout: "simple"
 <br>
 <small>Favicons (Twemoji) by <a href="https://favicon.io/" target="_blank">favicon.io</a></small>
 <br>
-<small>Scripts used: <a href="https://www.typeitjs.com/" target="_blank">TypeItJS</a></small>
+<small>Libraries used: <a href="https://www.typeitjs.com/" target="_blank">TypeItJS</a></small>

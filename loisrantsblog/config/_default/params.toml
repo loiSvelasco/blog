@@ -33,7 +33,7 @@ logo = "loisrantslogo.png"
   showSummary = false
   showTableOfContents = true
   showCards = false
-  groupByYear = true
+  groupByYear = false
 
 [footer]
   showThemeAttribution = false
