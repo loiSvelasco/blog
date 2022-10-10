@@ -6,5 +6,5 @@ layout: "simple"
 ## Here are some of my works
 
 {{< lead >}}
-Things that made life a little bit easier.
+Things that made life a little bit easier through the power of technology.
 {{< /lead >}}
