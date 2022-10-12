@@ -1,15 +1,13 @@
 ---
-title: "Document tracking System"
+title: "Document Tracking System"
 description: "An enhanced document tracking system for my workplace"
-layout: "simple"
 ---
 
 {{< alert "github" >}}
 You can view the entire code on my [GitHub](https://github.com/loiSvelasco/sdoin-dts)
 {{< /alert >}}
 
->Note: This manual is still being written and it is still unfinished.
-
+This manual is still being written and it is still unfinished.
 ## Enhanced Document Tracking System for SDOIN
 
 
@@ -18,7 +16,7 @@ This project aims to improve the current tracking system used in the Schools Div
 This project also aims to optimize the tracking process, enabling bulk releasing and receiving for units with a lot of documents to work on for improved efficiency.
 
 An added feature of the eDTS is the ability for users to scan the documents to automatically receive it without having to type the tracking no. (Typing is still supported)
-### Table of Contents
+<!-- ### Table of Contents
 - [Account](#1-account)
     - [Creating an account](#creating-an-account)
     - [Signing in](#signing-in)
@@ -34,7 +32,7 @@ An added feature of the eDTS is the ability for users to scan the documents to a
 - [Report generation](#4-report-generation)
     - [Per-day generation](#per-day-generation)
     - [Date-range generation](#date-range-generation)
-    - [Keeping track of all created documents](#keeping-track-of-all-created-documents)
+    - [Keeping track of all created documents](#keeping-track-of-all-created-documents) -->
 
 ---
 
@@ -87,14 +85,13 @@ Upon document creation, an alert message will show on whatever page you are on b
 
 Printing of the document tracking number opens up a new tab, and a print preview. The placement of the tracking number and the barcode are at the top right corner of the page.
 
-> This is the ideal process on how to print the tracking number on a physical copy of the document.
->
->```
->1. Print the document.
->2. Insert the first page of the document back into the printer.
->3. Create a tracking number using the system.
->4. Print the tracking number on the first page of said document.
->```
+{{< alert "circle-info" >}}
+Ideal process on printing the barcode:
+1. Create the document with an office application.
+2. Create a new document / tracking number using the system.
+3. Copy the generated barcode and paste it on the document; or
+4. Print the tracking number on the first page of said document by reinserting the page on the printer.
+{{< /alert >}}
 
 ### **Uploading of Documents**
 
@@ -119,9 +116,10 @@ The table view for receiving and releasing documents is found on the left sideba
     - The receiving table only has a receive action, while the release table has two actions:
         - Release
         - Mark as accomplished
-> **Note:** Mark as accomplished is only available for documents that are already received.
-> Marking multiple documents as accomplished is not supported as this action is irreversible.
-
+{{< alert "circle-info" >}}
+Note: Mark as accomplished is only available for documents that are already received.
+Marking multiple documents as accomplished is not supported as this action is irreversible.
+{{< /alert >}}
 
 ### **Scanning a barcode to receive document**
 
