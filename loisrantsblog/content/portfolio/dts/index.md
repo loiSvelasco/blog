@@ -146,3 +146,8 @@ Clicking on `more info` found under the cards redirects the user on a page with 
 ### **Keeping track of all created documents**
 
 This table shows all created documents regardless if accomplished or not.
+
+## License
+{{< alert "circle-info" >}}
+This project is licensed under the [MIT License](https://github.com/loiSvelasco/sdoin-dts/blob/master/LICENSE)
+{{< /alert >}}

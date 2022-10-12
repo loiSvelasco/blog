@@ -2,6 +2,8 @@ colorScheme = "blowfish"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 
+homepage.layout = "profile" # values: profile, card, hero, page
+
 enableSearch = true
 enableCodeCopy = true
 
