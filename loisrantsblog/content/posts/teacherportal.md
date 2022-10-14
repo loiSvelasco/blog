@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2022-10-13T19:59:43+08:00
 title = "A system for teachers"
 description = ""
@@ -25,3 +25,73 @@ A web-based approach fits this project perfectly. It enables access across devic
 
 For end-users, all that is needed is a computer or mobile phone, and a stable internet connection.
 For the server, any server would do, with a large storage space for documents and photos or other media, and a host with near to unlimited bandwidth to accomodate traffic for the first few weeks of deployment (I'm speaking as if this will work, which as of now I have no way of knowing, but I'll keep things positive.)
+
+
+## Initial flow (End-User)
+{{< mermaid >}}
+flowchart TB
+    start([Start])-->acc{login}
+    acc-- yes -->login(Login)
+    acc-- no -->reg(Register)-->acc
+    login-->menu{Menu}
+    fallback(((M)))-->menu
+    menu-->Settings
+    menu-->Trainings
+    menu-->Profile
+    menu-->Logout-->logout(((D)))
+    Settings-->user(((A)))
+    Trainings-->trainings(((B)))
+    Profile-->profile(((C)))
+{{< /mermaid >}}
+
+{{< mermaid >}}
+flowchart LR
+    user(((A)))-->settMenu{"&nbsp"}
+    settMenu-->pass[Edit Pass]-->Save
+    settMenu-->name[Edit Name]-->Save
+    settMenu-->email[Edit Email]-->Save-->fallback(((M)))
+{{< /mermaid >}}
+
+{{< mermaid >}}
+flowchart TD
+    user(((B)))-->trainMenu{"&nbsp"}
+    trainMenu-->Attended-->list0[Show List]
+    trainMenu-->All-->list0[Show List]-->fallback(((M)))
+    trainMenu-->Upcoming-->list1[Show List]-->attendyn{Attend?}
+    attendyn--yes-->Save-->fallback(((M)))
+    attendyn--no-->list1
+{{< /mermaid >}}
+
+{{< mermaid >}}
+flowchart LR
+    user(((C)))-->profMenu{"&nbsp"}
+    profMenu-->por[Portfolio / Innovations]-->manp[Manage/Edit]
+    profMenu-->exp[Work Experience]-->manp-->Save-->fallback(((M)))
+{{< /mermaid >}}
+
+{{< mermaid >}}
+flowchart TD
+    logout(((D)))-->finn([End])
+{{< /mermaid >}}
+
+
+## Initial flow (Admin)
+{{< mermaid >}}
+flowchart TD
+    login-->menu{Menu}
+    fallback(((M)))-->menu
+    menu-->admUsers[Users]
+    menu-->admTrain[Trainings]
+    menu-->Profile
+    menu-->Logout-->logout(((D)))
+    admUsers-->dash[Generic Dashboard for Managing Data]
+    admTrain-->manpTrain(((T)))
+    Profile-->dash
+{{< /mermaid >}}
+
+{{< mermaid >}}
+flowchart LR
+    manpTrain(((T)))-->menu{"&nbsp"}
+    menu-->edit[Edit Training]
+    menu-->add[Add Training]
+{{< /mermaid >}}
