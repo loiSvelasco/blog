@@ -76,6 +76,10 @@ flowchart TD
 
 
 ## Initial flow (Admin)
+{{< alert "circle-info" >}}
+The main difference between an admin user is the menu, additional settings are added, which is displayed here; all end-user flowchart still applies here, it's just with additional functions.
+{{< /alert >}}
+
 {{< mermaid >}}
 flowchart TD
     login-->menu{Menu}
@@ -95,3 +99,8 @@ flowchart LR
     menu-->edit[Edit Training]
     menu-->add[Add Training]
 {{< /mermaid >}}
+
+<br>
+{{< alert "circle-info" >}}
+This is unfinished, the flow needs to be studied accordingly to ensure scalability in the future.
+{{< /alert >}}
