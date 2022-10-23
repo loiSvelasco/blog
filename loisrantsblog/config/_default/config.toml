@@ -22,3 +22,8 @@ links = [
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"

@@ -3,7 +3,6 @@ date = 2022-10-04T18:05:25+08:00
 title = "Being Misunderstood"
 description = "And how to ignore it."
 slug = ""
-authors = ["Louis Velasco"]
 tags = ["self", "life"]
 categories = []
 externalLink = ""

@@ -29,6 +29,8 @@ logo = "loisrantslogo.png"
   showSummary = true
   # sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
   sharingLinks = false
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background
 
 [list]
   showBreadcrumbs = true
@@ -39,6 +41,9 @@ logo = "loisrantslogo.png"
 
 [footer]
   showThemeAttribution = false
+  showCopyright = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
 
 [firebase]
   apiKey = "AIzaSyDFhimbGLKf6RtFaYriKevyIaNnOKmv51g"

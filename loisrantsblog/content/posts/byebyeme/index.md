@@ -3,7 +3,6 @@ date = 2022-10-08T18:14:29+08:00
 title = "An unnecessary analysis of the song bye by me // vaundy"
 description = ""
 slug = ""
-authors = ["Louis Velasco"]
 tags = ["music", "life"]
 categories = []
 externalLink = ""
