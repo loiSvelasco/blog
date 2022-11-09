@@ -27,26 +27,34 @@
     {{ end }}
     <h2 class="text-xl text-neutral-500 dark:text-neutral-400" id="typeit"></h2>
     <script>
-        new TypeIt("#typeit", { 
-            lifeLike: true, 
-            // speed: 100 
-        })
-        .type("thoughts, st", { delay: 500 })
-        .move(null, { to: "START", instant: true, delay: 300 })
-        .move(1, { delay: 200 })
-        .delete(1)
-        .type("T", { delay: 225 })
-        .move(null, { to: "END", instant: true, delay: 600 })
-        // .delete(1)
-        .type("ories, anf ", { delay: 100 })
-        .move(-1, { delay: 20 }).delete(1)
-        .type("d ideas. ", { delay: 500 })
-        .pause(200)
-        .type("╰(▔▽▔)╯", { speed: 1000 })
-        .go();
+      new TypeIt("#typeit", { 
+          lifeLike: true, 
+          // speed: 100 
+      })
+      .type("thoughts, st", { delay: 500 })
+      .move(null, { to: "START", instant: true, delay: 300 })
+      .move(1, { delay: 200 })
+      .delete(1)
+      .type("T", { delay: 525 })
+      .move(null, { to: "END", instant: true, delay: 600 })
+      // .delete(1)
+      .type("ories, anf ", { delay: 100 })
+      .pause(300)
+      .move(-1, { delay: 50 }).delete(1)
+      .pause(100)
+      .type("d ideas. ", { delay: 500 })
+      .pause(200)
+      .type("╰", { delay: 150 })
+      .type("(", { delay: 240 })
+      .type("▔", { delay: 400 })
+      .type("▽", { delay: 300 })
+      .type("▔", { delay: 250 })
+      .type(")", { delay: 120 })
+      .type("╯", { delay: 210 })
+      .go();
 
-        // ╰(▔▽▔)╯
-    </script>
+      // ╰(▔▽▔)╯
+  </script>
     <div class="mt-1 text-2xl">
       {{ partialCached "author-links.html" . }}
     </div>

@@ -2,12 +2,25 @@ colorScheme = "blowfish"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 
-homepage.layout = "profile" # values: profile, card, hero, page
+[homepage]
+  layout = "background" # values: profile, card, hero, page, background
+  homepageImage = "loisrantsbg.png" # used in: hero, and card
+  showRecent = false
+  showRecentItems = 5
+  showMoreLink = false
+  showMoreLinkDest = "/posts"
+  cardView = false
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false # only used when layout equals background
 
 enableSearch = true
 enableCodeCopy = true
 
 logo = "loisrantslogo.png"
+
+[header]
+  layout = "fixed" # valid options: basic, fixed
+
 
 [article]
   showDate = true
@@ -33,6 +46,8 @@ logo = "loisrantslogo.png"
   heroStyle = "background" # valid options: basic, big, background
 
 [list]
+  showHero = true
+  heroStyle = "background"
   showBreadcrumbs = true
   showSummary = false
   showTableOfContents = true
