@@ -44,6 +44,7 @@ logo = "loisrantslogo.png"
   sharingLinks = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background
+  layoutBackgroundBlur = false # only used when heroStyle equals background
 
 [list]
   showHero = true
