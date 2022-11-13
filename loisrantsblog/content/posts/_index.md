@@ -1,5 +1,6 @@
 ---
 title: "Rants"
+layout: "list"
 ---
 
 {{< lead >}}
