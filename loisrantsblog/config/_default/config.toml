@@ -15,6 +15,7 @@ links = [
     { instagram = "https://www.instagram.com/loiiivelascooo/" },
     { twitter = "https://twitter.com/itsFafaLoi" },
     { steam = "https://steamcommunity.com/id/loisuperv/" },
+    { mastodon = "https://urusai.social/@loisvel" }
 ]
 
 [permalinks]
